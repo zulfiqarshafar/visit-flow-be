@@ -44,17 +44,11 @@ The app will run at:
 
 ## Technical Decisions
 
-### 1. Node.js and Express.js for Backend
-
-Node.js was selected because it uses JavaScript on both frontend and backend, allowing consistent language usage across the application.
-
-Express.js provides a lightweight way to build RESTful APIs without introducing unnecessary complexity.
+### 1. Node.js and Express.js
 
 Node.js dipilih agar frontend dan backend dapat dikembangkan menggunakan JavaScript. Selain itu, Node.js memiliki ekosistem yang luas, cukup ringan, dan mudah untuk dikembangkan. Sedangkan, Express.js digunakan karena cukup ringan dan mudah digunakan untuk membuat REST API yang dibutuhkan oleh aplikasi ini.
 
-### 2. SQLite for Database
-
-SQLite was chosen because this project is a prototype with relatively simple data requirements. It does not require a separate database server and is easy to configure and run locally.
+### 2. SQLite
 
 SQLite dipilih karena mudah digunakan dan dikonfigurasi. Selain itu, SQLite sangat cocok digunakan untuk membangun aplikasi kecil seperti ini.
 
@@ -65,6 +59,10 @@ SQLite dipilih karena mudah digunakan dan dikonfigurasi. Selain itu, SQLite sang
 - Tidak bisa menghapus data
 - Data aktivitas yang bisa diubah hanya atribut status
 - Tidak ada registrasi akun
+
+## AI Usage
+
+Bantuan AI digunakan dalam membangun aplikasi ini dengan persentase 20%. AI digunakan dalam penyempurnaan konfigurasi database, seeding, fungsi autentikasi, api entitas, autocomplete, dan penulisan dokumentasi pada README.
 
 ## Notes
 
