@@ -20,10 +20,16 @@ Install dependencies:
 npm install
 ```
 
-Create a `.env` file in the root directory:
+Create a `.env` file in the root directory with following content:
 
 ```env
 JWT_SECRET=your-secret-key
+```
+
+Generate JWT secret key in terminal using:
+
+```bash
+node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"
 ```
 
 Seed database:
